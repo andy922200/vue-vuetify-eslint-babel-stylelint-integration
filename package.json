@@ -1,0 +1,50 @@
+{
+    "name": "vue-vuetify-eslint-babel-stylelint-integration",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "format": "vue-cli-service lint --fix",
+        "report": "vue-cli-service build --report",
+        "check-css": "stylelint **/*.{scss,css}",
+        "format-css": "stylelint **/*.{scss,css} --fix"
+    },
+    "dependencies": {
+        "@mdi/font": "^5.8.55",
+        "core-js": "^3.6.5",
+        "css-vars-ponyfill": "^2.4.2",
+        "dayjs": "^1.9.7",
+        "regenerator-runtime": "^0.13.7",
+        "roboto-fontface": "*",
+        "vue": "^2.6.11",
+        "vue-router": "^3.2.0",
+        "vuetify": "^2.2.11",
+        "vuex": "^3.4.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/eslint-config-standard": "^6.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.15.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-vue": "^6.2.2",
+        "node-sass": "^4.12.0",
+        "prettier": "^1.19.1",
+        "sass": "^1.19.0",
+        "sass-loader": "^8.0.2",
+        "stylelint": "^13.8.0",
+        "stylelint-config-sass-guidelines": "^7.1.0",
+        "stylelint-config-standard": "^20.0.0",
+        "vue-cli-plugin-vuetify": "~2.0.8",
+        "vue-template-compiler": "^2.6.11",
+        "vuetify-loader": "^1.6.0"
+    }
+}
