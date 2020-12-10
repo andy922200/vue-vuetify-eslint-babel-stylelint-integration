@@ -5,7 +5,8 @@ import Vuex from 'vuex'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
-dayjs.extend(relativeTime, customParseFormat)
+dayjs.extend(relativeTime)
+dayjs.extend(customParseFormat)
 
 // import customized Modules
 import authentication from './modules/authentication'
@@ -25,7 +26,7 @@ export default new Vuex.Store({
     },
     mutations: {
         setToday (state, time) {
-            state.today = time
+            state.today = dayjs(time)
         },
         setLeftNavigationStatus (state, status) {
             state.leftNavigationStatus = status

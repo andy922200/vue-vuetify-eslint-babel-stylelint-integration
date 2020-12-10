@@ -5,7 +5,6 @@
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint",
         "format": "vue-cli-service lint --fix",
         "report": "vue-cli-service build --report",
         "check-css": "stylelint **/*.{scss,css}",

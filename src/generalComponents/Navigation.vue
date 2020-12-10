@@ -59,7 +59,7 @@ export default {
                 return this.$store.getters.leftNavigationStatus
             },
             set () {
-                return this.leftNavigationModel
+                this.leftNavigationModel
                     ? this.triggerLeftNavigation(true)
                     : this.triggerLeftNavigation(false)
             }
