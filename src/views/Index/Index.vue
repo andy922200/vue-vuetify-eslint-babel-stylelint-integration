@@ -5,8 +5,29 @@
 </template>
 
 <script>
+import {
+    lyricsAPIs
+} from './../../utils/api'
+
 export default {
-    name: 'Index'
+    name: 'Index',
+    created () {
+        this.test()
+    },
+    methods: {
+        async test () {
+            try {
+                // This is for demo.
+                const res = await lyricsAPIs.getASongLyric({
+                    artist: 'adele',
+                    title: 'hello'
+                })
+                console.log('res', res)
+            } catch (err) {
+                console.log(err)
+            }
+        }
+    }
 }
 </script>
 

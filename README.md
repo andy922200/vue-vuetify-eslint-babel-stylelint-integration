@@ -18,10 +18,6 @@
 - [Babel Compiler](https://babeljs.io/) - Use next generation JavaScript, today.
 - [ESLint](https://eslint.org/) - Find and fix problems in your JavaScript code
 - [Stylelint](https://stylelint.io/) - A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-
-### Still in development
-<p>等候更新上版</p>
-
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 
 ## Prerequisites
