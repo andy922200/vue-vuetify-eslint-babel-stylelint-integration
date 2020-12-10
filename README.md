@@ -14,6 +14,7 @@
 
 - [Vue 2](https://vuejs.org/) - The Progressive JavaScript Framework.
 - [Vuetify](https://vuetifyjs.com/en/) - Vuetify is a Vue UI Library with beautifully handcrafted Material Components.
+- [Dayjs](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API
 - [Babel Compiler](https://babeljs.io/) - Use next generation JavaScript, today.
 - [ESLint](https://eslint.org/) - Find and fix problems in your JavaScript code
 - [Stylelint](https://stylelint.io/) - A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
@@ -70,7 +71,9 @@ $ npm run format-css
 
 ## Related Articles
 If you would like to read the essential details, please read the following posts on my blog. ( Traditional Chinese Only )
-- [Article 1](https://smlpoints.com) - ...
+- [[筆記] Vuetify + Babel + Vue.config.js 最佳化實踐](https://smlpoints.com/notes-vuetify-babel-vue-config-js-best-practice.html) 
+- [[指南] Vue 結合 StyleLint 來統一你的 CSS 樣式](https://smlpoints.com/guide-vue-integrated-stylelint-to-format-css-automatically.html) 
+- [[指南] Vue 結合 ESLint 來格式化你的程式碼](https://smlpoints.com/guide-vue-integrated-eslint-to-format-js-automatically.html) 
 
 ## Author
 - [Andy Lien](https://github.com/andy922200)
